@@ -1,0 +1,132 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+/*body * {
+	margin: 0;
+	padding: 0;
+}*/
+
+#board, #board1, #board2 {
+	width: 500px;
+	background-color: teal;
+	/*border-width: 2px;*/
+	/*border-style: solid;*/
+	/*border-color: blue;*/
+	padding: 0;
+	margin: 0;
+}
+
+li, .li {
+	list-style-type: none;
+	height: 160px;
+	width: 160px;
+	display: inline-block;
+	position: relative;
+
+	padding: 0;
+	margin: 0;
+
+	/*border-width: 2px;*/
+	/*border-style: solid;*/
+	/*border-color: green;*/
+	background-color: white;
+}
+
+.line {
+	/*background-image: -webkit-linear-gradient(top, white, #E2E2E2, white);*/
+	/*background-image: -moz-linear-gradient(left, white, #E2E2E2, white); */
+    /*background-image: -ms-linear-gradient(left, white, #E2E2E2, white); */
+    /*background-image: -o-linear-gradient(left, white, #E2E2E2, white); */
+    /*box-shadow: 0 0 2px gray;*/
+    border-radius: 20px;
+    background-color: teal;
+}
+
+
+.vertical-container {
+	position: absolute;
+}
+
+.vertical-line {
+	position: relative;
+	height: 520px;
+	width: 20px;
+	top: -160px;
+	display: inline-block;
+}
+
+.line-left {
+	margin-left: 160px;
+	margin-right: 160px;
+}
+
+.line-top {
+	margin-top: 160px;
+	margin-bottom: 160px;
+}
+
+.horizontal-line {
+	position: relative;
+	height: 20px;
+	width: 520px;
+	display: block;
+}
+
+.left-vertical-line {
+	/*box-shadow: -10px 0 1px gray;*/
+	margin-left: 10px;
+}
+
+.right-vertical-line {
+	/*box-shadow: -10px 0 1px red;*/
+}
+
+.bottom-horizontal-line {
+	/*box-shadow: -10px 0 1px yellow;*/
+	margin-bottom: 10px;
+}
+
+.top-horizontal-line {
+	/*box-shadow: 0 -10px 1px blue;*/
+}
+
+.player {
+	opacity: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+#playAgain p {
+	text-align: center;
+	font-size: 30px;
+}
+
+.winner-div {
+	display: block;
+	height: 75%;
+	width: 75%;
+	position: fixed;
+	top: 15%;
+	left: 15%;
+	background-color: gainsboro;
+	border-radius: 15px;
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+}
+
+.winner-button {
+	display: block;
+	background-color: cornflowerblue;
+	border-radius: 15px;
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	margin-top: 20px;
+	font-size: 20px;
+}

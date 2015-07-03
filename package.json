@@ -1,0 +1,9 @@
+{
+	"name": "TicTacDogge",
+	"description": "Tic tac toe with doge.",
+	"version": "0.0.1",
+	"dependencies": {
+		"express": "3.0.x",
+		"hogan.js": "2.0.x"
+	}
+}
